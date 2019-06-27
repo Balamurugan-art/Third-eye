@@ -1,5 +1,5 @@
-ch = input("Enter the letter")
-if( ch=='A' or ch=='a' or ch=='E' or ch=='e' or ch=='I' or ch=='i' or ch=='O' or ch=='O' or ch=='U' or ch=='u'):
-  print(ch,"vowel")
+ch = input("Enter the character:")
+if( ch=='A' or ch=='a' or ch=='E' or ch=='e' or ch=='I' or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
+      print(ch,"Vowel")
 else:
-  print(ch,"consonant")
+     print(ch,"Invalid")
